@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E326BCBA1ABB0D400014C952 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E326BCB91ABB0D400014C952 /* String.swift */; };
+		E326BCBC1ABB0EEC0014C952 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = E326BCBB1ABB0EEC0014C952 /* CSV.swift */; };
 		E359C6651AB8346E00213713 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E359C6621AB8345C00213713 /* CryptoSwift.framework */; };
 		E359C6661AB8346E00213713 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E359C6621AB8345C00213713 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E359C66B1AB8348E00213713 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359C66A1AB8348E00213713 /* Token.swift */; };
@@ -80,6 +81,7 @@
 
 /* Begin PBXFileReference section */
 		E326BCB91ABB0D400014C952 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		E326BCBB1ABB0EEC0014C952 /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
 		E359C65C1AB8345C00213713 /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = "Laposte/Lib/CryptoSwift-master/CryptoSwift.xcodeproj"; sourceTree = "<group>"; };
 		E359C66A1AB8348E00213713 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		E359C66E1AB839CF00213713 /* CUA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUA.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				E326BCB61ABB08970014C952 /* Cell */,
 				E359C66A1AB8348E00213713 /* Token.swift */,
 				E326BCB91ABB0D400014C952 /* String.swift */,
+				E326BCBB1ABB0EEC0014C952 /* CSV.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				E3C2EFC91AB73E7500467A4C /* NavigationBar.swift in Sources */,
 				E371F9E51AB880D6004595AA /* TypeLetter.swift in Sources */,
 				E359C6711AB842DD00213713 /* MenuCell.swift in Sources */,
+				E326BCBC1ABB0EEC0014C952 /* CSV.swift in Sources */,
 				E326BCBA1ABB0D400014C952 /* String.swift in Sources */,
 				E371F9ED1AB979CD004595AA /* Appointment.swift in Sources */,
 				E3C0719A1AB8298600164E9D /* Login.swift in Sources */,

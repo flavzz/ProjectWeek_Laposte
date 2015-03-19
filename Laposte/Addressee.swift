@@ -18,8 +18,8 @@ class Addressee: UIViewController, UITableViewDelegate, UITableViewDataSource {
     {
         super.viewDidLoad()
         navigationItem.title = "Destinataire"
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWasShown:", name: UIKeyboardDidShowNotification, object: nil)
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillBeHidden:", name: UIKeyboardWillHideNotification, object: nil)
+       /* NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWasShown:", name: UIKeyboardDidShowNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillBeHidden:", name: UIKeyboardWillHideNotification, object: nil)*/
     }
     
     func keyboardWasShown (notification: NSNotification)

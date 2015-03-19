@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Weight: UIViewController {
+class Weight: UITableViewController {
 
     @IBOutlet weak var TFPoids: UITextField!
     @IBOutlet weak var TFFeuille: UITextField!

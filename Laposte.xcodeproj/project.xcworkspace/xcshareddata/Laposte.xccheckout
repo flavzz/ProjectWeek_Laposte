@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8C601E73-C794-47CF-9D7E-54232F00F021</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Laposte</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9ECC5B88912911F1BC1BE03C2FAD3E2DDBD37267</key>
+		<string>https://github.com/flavzz/ProjectWeek_Laposte.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Laposte.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9ECC5B88912911F1BC1BE03C2FAD3E2DDBD37267</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/flavzz/ProjectWeek_Laposte.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9ECC5B88912911F1BC1BE03C2FAD3E2DDBD37267</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9ECC5B88912911F1BC1BE03C2FAD3E2DDBD37267</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ProjectWeek</string>
+		</dict>
+	</array>
+</dict>
+</plist>
