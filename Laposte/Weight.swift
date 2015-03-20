@@ -49,7 +49,7 @@ class Weight: UITableViewController {
     func alertViewBad() {
         var alertView:UIAlertView = UIAlertView()
         alertView.title = "Champs incomplets"
-        alertView.message = "Veuillez Rentrer le poids"
+        alertView.message = "Veuillez rentrer le poids"
         alertView.delegate = self
         alertView.addButtonWithTitle("OK")
         alertView.show()

@@ -49,7 +49,7 @@ class Addressee: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "INFORMATION DESTINATAIRE"
+        return "INFORMATIONS DESTINATAIRE"
     }
     
     func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {

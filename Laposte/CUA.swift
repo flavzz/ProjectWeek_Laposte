@@ -88,7 +88,6 @@ class CUA: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        println(indexPath.row)
         if (indexPath.row == 0) {
             self.performSegueWithIdentifier("geolocalisation", sender: nil)
         } else if (indexPath.row == 1) {
@@ -99,8 +98,8 @@ class CUA: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     func alertViewGood() {
         var alertView:UIAlertView = UIAlertView()
-        alertView.title = "Good !"
-        alertView.message = "Notification envoyé"
+        alertView.title = "Envoyé !"
+        alertView.message = "Votre facteur viendra récupérer votre lettre"
         alertView.delegate = self
         alertView.addButtonWithTitle("OK")
         alertView.show()

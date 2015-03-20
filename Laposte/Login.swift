@@ -8,6 +8,8 @@
 
 import UIKit
 
+var stateInvit:Bool = false
+
 class Login: UIViewController {
 
     @IBOutlet weak var TFLogin: UITextField!
@@ -66,10 +68,17 @@ class Login: UIViewController {
         {
             self.TFLogin.text = ""
             usleep(250000)
+            stateInvit = false
             self.performSegueWithIdentifier("dashboard", sender: nil)
         } else {
             alertViewBadLogin()
         }
         self.TFMDP.text = ""
     }
+    
+    @IBAction func connexion_invite(sender: AnyObject) {
+        stateInvit = true
+        self.performSegueWithIdentifier("dashboard", sender: nil)
+    }
+    
 }

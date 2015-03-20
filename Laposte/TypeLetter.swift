@@ -10,7 +10,7 @@ import UIKit
 
 class TypeLetter: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let MenuTableView = ["Lettre Recommandée", "Lettre Prioritaire", "Lettre Verte", "Ecoplie"]
+    let MenuTableView = ["Lettre Recommandée", "Lettre Prioritaire", "Lettre Verte", "Ecopli"]
     let IconeMenuTableView = ["icone_reco", "icone_prio", "icone_verte", "icone_ecopli"]
     
     override func viewDidLoad() {

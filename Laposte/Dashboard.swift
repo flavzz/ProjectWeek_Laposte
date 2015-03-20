@@ -16,11 +16,17 @@ class Dashboard: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
 
-    let MenuTableView = ["Affranchir une lettre", "Mon compte", "Déconnexion"]
-    let IconeMenuTableView = ["icone_timbre", "icone_moncompte", "icone_disconnect"]
+    var MenuTableView = ["Affranchir une lettre", "Timbres générés", "Mon compte", "Déconnexion"]
+    var IconeMenuTableView = ["icone_timbre", "icone_list_timbre", "icone_moncompte", "icone_disconnect"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if (stateInvit == true)
+        {
+            MenuTableView = ["Affranchir une lettre", "Déconnexion"]
+            IconeMenuTableView = ["icone_timbre", "icone_disconnect"]
+        }
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -32,7 +38,7 @@ class Dashboard: UIViewController, UITableViewDelegate, UITableViewDataSource {
     */
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 100
+        return 90
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -57,11 +63,13 @@ class Dashboard: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        if (indexPath.row == 0) {
+        if (MenuTableView[indexPath.row] == "Affranchir une lettre") {
             self.performSegueWithIdentifier("type", sender: nil)
-        } else if (indexPath.row == 1) {
+        } else if (MenuTableView[indexPath.row] == "Timbres générés") {
+            self.performSegueWithIdentifier("liste", sender: nil)
+        } else if (MenuTableView[indexPath.row] == "Mon compte") {
             self.performSegueWithIdentifier("compte", sender: nil)
-        } else if (indexPath.row == 2) {
+        } else if (MenuTableView[indexPath.row] == "Déconnexion") {
             dismissViewControllerAnimated(true, completion: { () -> Void in })
         }
         tableView.deselectRowAtIndexPath(indexPath, animated: true)

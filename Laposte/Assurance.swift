@@ -14,7 +14,7 @@ class Assurance: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Assurance"
+        navigationItem.title = "Assurances"
     }
     
     override func didReceiveMemoryWarning() {
